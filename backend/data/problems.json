@@ -1,0 +1,852 @@
+[
+  {
+    "id": "p001",
+    "title": "AI-Powered Crop Disease Detection",
+    "description": "Build a mobile app that uses computer vision to detect diseases in crop leaves from photos.",
+    "domain": "Agriculture",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "TensorFlow", "React Native", "FastAPI"],
+    "duration": "2 weeks",
+    "tags": ["AI/ML", "Mobile", "Computer Vision"],
+    "problem_statement": "Farmers need a quick way to identify crop diseases without expert consultation. Create a solution that allows farmers to take a photo of a leaf and get an instant diagnosis with treatment recommendations.",
+    "objectives": [
+      "Train a CNN model on a dataset of diseased leaf images.",
+      "Develop a mobile app with camera integration.",
+      "Provide disease name, severity, and suggested remedies."
+    ],
+    "deliverables": ["Trained model (or API endpoint)", "Mobile app prototype", "Demo video"]
+  },
+  {
+    "id": "p002",
+    "title": "Blockchain-Based Supply Chain Traceability",
+    "description": "Create a decentralized system to track goods from origin to consumer, ensuring authenticity.",
+    "domain": "FinTech",
+    "difficulty": "Hard",
+    "tech_stack": ["Solidity", "Ethereum", "Node.js", "React"],
+    "duration": "3 weeks",
+    "tags": ["Blockchain", "Supply Chain", "Web3"],
+    "problem_statement": "Counterfeit products cost businesses billions. Build a blockchain solution that records every step of a product's journey, allowing consumers to verify authenticity via QR code.",
+    "objectives": [
+      "Design a smart contract for product lifecycle events.",
+      "Build a web dashboard for producers and consumers.",
+      "Implement QR code generation and scanning."
+    ],
+    "deliverables": ["Smart contracts", "Web app", "Demo with sample products"]
+  },
+  {
+    "id": "p003",
+    "title": "Personalized Learning Path Generator",
+    "description": "An AI system that recommends customized learning resources based on a user's skill gaps.",
+    "domain": "EdTech",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "FastAPI", "React", "PostgreSQL"],
+    "duration": "2 weeks",
+    "tags": ["AI/ML", "Personalization", "Education"],
+    "problem_statement": "Students often waste time on content they already know. Build a platform that assesses a student's current knowledge and generates a step-by-step learning plan with curated resources.",
+    "objectives": [
+      "Implement a knowledge graph of topics and prerequisites.",
+      "Create a quiz system to evaluate user proficiency.",
+      "Recommend videos, articles, and exercises based on gaps."
+    ],
+    "deliverables": ["Web app", "API for recommendations", "Demo dataset"]
+  },
+  {
+    "id": "p004",
+    "title": "Smart Irrigation System Using IoT",
+    "description": "Develop an IoT-based system that optimizes water usage in agriculture based on soil moisture and weather.",
+    "domain": "Agriculture",
+    "difficulty": "Medium",
+    "tech_stack": ["Arduino", "Python", "MQTT", "Node-RED"],
+    "duration": "2 weeks",
+    "tags": ["IoT", "Agriculture", "Sustainability"],
+    "problem_statement": "Water scarcity is a major issue. Build a system that collects soil moisture and weather data to control irrigation pumps automatically, reducing water waste.",
+    "objectives": [
+      "Read soil moisture sensors and weather APIs.",
+      "Implement logic to decide watering schedules.",
+      "Provide a dashboard for monitoring and manual override."
+    ],
+    "deliverables": ["Hardware prototype (or simulation)", "Dashboard", "Report"]
+  },
+  {
+    "id": "p005",
+    "title": "Waste Sorting Robot with Computer Vision",
+    "description": "Build a robot that automatically sorts recyclable materials from waste using image recognition.",
+    "domain": "Environment",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "OpenCV", "Raspberry Pi", "TensorFlow Lite"],
+    "duration": "3 weeks",
+    "tags": ["Robotics", "Computer Vision", "Sustainability"],
+    "problem_statement": "Recycling plants rely on manual sorting, which is inefficient. Create a robot that uses a camera to identify types of waste (plastic, metal, paper) and places them into correct bins.",
+    "objectives": [
+      "Train a classification model on waste images.",
+      "Build a robotic arm or conveyor belt system.",
+      "Achieve >90% accuracy in sorting."
+    ],
+    "deliverables": ["Robot prototype", "Code repository", "Demonstration video"]
+  },
+  {
+    "id": "p006",
+    "title": "Decentralized Identity Management",
+    "description": "Create a self-sovereign identity system that allows users to control their personal data.",
+    "domain": "Cybersecurity",
+    "difficulty": "Hard",
+    "tech_stack": ["Hyperledger", "Node.js", "React", "DID"],
+    "duration": "3 weeks",
+    "tags": ["Blockchain", "Privacy", "Security"],
+    "problem_statement": "Centralized identity providers are prone to breaches. Build a system where users own their identity and can selectively share credentials with third parties without a central authority.",
+    "objectives": [
+      "Implement DID (Decentralized Identifier) generation.",
+      "Create a wallet app for storing credentials.",
+      "Design a verifiable credential exchange protocol."
+    ],
+    "deliverables": ["Web/mobile wallet", "Demo of credential sharing", "Documentation"]
+  },
+  {
+    "id": "p007",
+    "title": "Smart Parking Management System",
+    "description": "Develop a system that helps drivers find available parking spots in real-time using sensors and data aggregation.",
+    "domain": "Smart City",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "MongoDB", "React", "MQTT"],
+    "duration": "2 weeks",
+    "tags": ["IoT", "Urban Tech", "Smart City"],
+    "problem_statement": "City drivers waste time searching for parking, causing congestion. Build a system that collects occupancy data from parking lots and guides drivers to free spots via a mobile app.",
+    "objectives": [
+      "Simulate or integrate real sensors.",
+      "Provide a real-time map of parking availability.",
+      "Allow users to reserve spots in advance."
+    ],
+    "deliverables": ["Mobile/web app", "Backend API", "Dashboard"]
+  },
+  {
+    "id": "p008",
+    "title": "Voice-Controlled Home Automation",
+    "description": "Create a voice assistant that controls smart home devices like lights, fans, and doors.",
+    "domain": "Accessibility",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "SpeechRecognition", "Raspberry Pi", "Node.js"],
+    "duration": "2 weeks",
+    "tags": ["Accessibility", "IoT", "Voice AI"],
+    "problem_statement": "People with mobility issues can benefit from voice-activated home controls. Build a system that recognizes natural language commands and executes them on smart devices.",
+    "objectives": [
+      "Implement offline speech-to-text (or use cloud API).",
+      "Control devices via MQTT or home automation protocols.",
+      "Provide feedback via voice or text."
+    ],
+    "deliverables": ["Device prototype", "Voice interaction demo", "Documentation"]
+  },
+  {
+    "id": "p009",
+    "title": "E-commerce Recommendation Engine",
+    "description": "Build a recommendation system that suggests products to users based on their browsing and purchase history.",
+    "domain": "E-commerce",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Surprise", "FastAPI", "React"],
+    "duration": "2 weeks",
+    "tags": ["AI/ML", "Recommendation", "E-commerce"],
+    "problem_statement": "Online stores need to increase conversion by showing relevant products. Create a collaborative filtering and content-based hybrid recommendation engine.",
+    "objectives": [
+      "Implement user-user and item-item collaborative filtering.",
+      "Add content-based recommendations using product metadata.",
+      "Create an API that serves recommendations in real-time."
+    ],
+    "deliverables": ["API endpoint", "Demo web interface", "Evaluation metrics"]
+  },
+  {
+    "id": "p010",
+    "title": "Real-Time Public Transit Tracker",
+    "description": "Develop a system that tracks buses/trains in real-time and predicts arrival times using GPS data.",
+    "domain": "Transportation",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React Native", "PostGIS"],
+    "duration": "2 weeks",
+    "tags": ["Transportation", "Real-time", "GPS"],
+    "problem_statement": "Commuters need accurate arrival times to plan their journeys. Build a system that aggregates GPS feeds from transit vehicles and predicts arrival times using historical and real-time data.",
+    "objectives": [
+      "Ingest and process GPS data streams.",
+      "Provide a map-based UI showing vehicle positions.",
+      "Implement predictive algorithms for arrival times."
+    ],
+    "deliverables": ["Mobile app", "Backend API", "Dashboard"]
+  },
+  {
+    "id": "p011",
+    "title": "Disaster Response Coordination Platform",
+    "description": "Build a platform that connects volunteers, NGOs, and government agencies during natural disasters.",
+    "domain": "Disaster Management",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "Flask", "React", "PostgreSQL"],
+    "duration": "3 weeks",
+    "tags": ["Social Impact", "Emergency", "Crisis"],
+    "problem_statement": "During disasters, coordination is chaotic. Create a centralized platform to track resources, volunteer availability, and affected areas, enabling efficient response.",
+    "objectives": [
+      "Allow agencies to post resource needs and offers.",
+      "Map affected areas with geo-tagging.",
+      "Provide real-time updates and alerts."
+    ],
+    "deliverables": ["Web app", "Mobile-friendly interface", "Integration with mapping APIs"]
+  },
+  {
+    "id": "p012",
+    "title": "Telemedicine Consultation System",
+    "description": "Create a platform that connects patients with doctors for remote consultations via video and chat.",
+    "domain": "Healthcare",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "WebRTC", "React"],
+    "duration": "2 weeks",
+    "tags": ["Healthcare", "Telemedicine", "Video"],
+    "problem_statement": "Access to healthcare is limited in rural areas. Build a system that allows patients to book appointments, consult doctors via video call, and receive prescriptions.",
+    "objectives": [
+      "Implement patient and doctor registration.",
+      "Enable video call functionality.",
+      "Provide secure messaging and file sharing."
+    ],
+    "deliverables": ["Web app", "API for scheduling", "Video call demo"]
+  },
+  {
+    "id": "p013",
+    "title": "Renewable Energy Grid Optimizer",
+    "description": "Build a system that optimizes the distribution of renewable energy (solar, wind) across a grid to minimize costs and waste.",
+    "domain": "Energy",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "SciPy", "React", "D3.js"],
+    "duration": "3 weeks",
+    "tags": ["Renewable", "Optimization", "Energy"],
+    "problem_statement": "Renewable sources are intermittent. Create an AI-based optimizer that predicts energy production and consumption to balance the grid and reduce reliance on fossil fuels.",
+    "objectives": [
+      "Forecast solar/wind energy production using weather data.",
+      "Develop an optimization algorithm for load balancing.",
+      "Visualize grid status and recommendations."
+    ],
+    "deliverables": ["Web dashboard", "Optimization engine", "Documentation"]
+  },
+  {
+    "id": "p014",
+    "title": "Sentiment Analysis for Social Impact",
+    "description": "Develop a tool that analyzes social media sentiment to measure public opinion on social issues and policy changes.",
+    "domain": "Social Impact",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "NLTK", "Transformers", "FastAPI"],
+    "duration": "2 weeks",
+    "tags": ["NLP", "Social Impact", "AI/ML"],
+    "problem_statement": "Organizations need to gauge public reaction to initiatives. Build a sentiment analysis system that processes tweets, news articles, and comments to track sentiment trends over time.",
+    "objectives": [
+      "Collect data from social media APIs.",
+      "Implement sentiment classification (positive/negative/neutral).",
+      "Provide a dashboard with time-series charts."
+    ],
+    "deliverables": ["API", "Dashboard", "Example reports"]
+  },
+  {
+    "id": "p015",
+    "title": "Autonomous Drone for Crop Monitoring",
+    "description": "Create a drone system that autonomously flies over agricultural fields to monitor crop health and detect pests.",
+    "domain": "Agriculture",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "ArduPilot", "OpenCV", "Raspberry Pi"],
+    "duration": "3 weeks",
+    "tags": ["Drones", "Agriculture", "Computer Vision"],
+    "problem_statement": "Manual field inspection is time-consuming. Build a drone that can fly pre-programmed paths, capture multispectral images, and identify areas of stress or pest infestation.",
+    "objectives": [
+      "Program autonomous flight missions.",
+      "Process images to detect anomalies.",
+      "Deliver a map of problem zones."
+    ],
+    "deliverables": ["Drone prototype (or simulation)", "Image processing pipeline", "Field maps"]
+  },
+  {
+    "id": "p016",
+    "title": "Smart Traffic Light Control",
+    "description": "Build an adaptive traffic light system that adjusts timings based on real-time traffic flow.",
+    "domain": "Smart City",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "OpenCV", "Arduino", "React"],
+    "duration": "2 weeks",
+    "tags": ["Traffic", "IoT", "Computer Vision"],
+    "problem_statement": "Fixed traffic light timings cause unnecessary delays. Create a system that uses cameras to count vehicles at intersections and dynamically adjusts green light durations.",
+    "objectives": [
+      "Implement vehicle detection using computer vision.",
+      "Develop a control algorithm to minimize wait times.",
+      "Provide a simulation or real hardware demo."
+    ],
+    "deliverables": ["Traffic simulation", "Hardware demo", "Code"]
+  },
+  {
+    "id": "p017",
+    "title": "Peer-to-Peer Energy Trading Platform",
+    "description": "Create a platform that allows households with solar panels to trade excess energy with neighbors.",
+    "domain": "Energy",
+    "difficulty": "Hard",
+    "tech_stack": ["Solidity", "Python", "Web3", "React"],
+    "duration": "3 weeks",
+    "tags": ["Blockchain", "Energy", "Peer-to-Peer"],
+    "problem_statement": "Prosumers waste surplus energy. Build a blockchain-based marketplace where users can sell excess solar energy to neighbors at dynamic prices.",
+    "objectives": [
+      "Implement smart contracts for energy tokenization.",
+      "Build a web UI for trading.",
+      "Integrate with smart meters (simulated)."
+    ],
+    "deliverables": ["DApp", "Smart contracts", "Demo"]
+  },
+  {
+    "id": "p018",
+    "title": "Gamified Cybersecurity Training",
+    "description": "Develop an interactive game that teaches cybersecurity concepts through challenges and simulations.",
+    "domain": "Cybersecurity",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "WebSockets"],
+    "duration": "2 weeks",
+    "tags": ["Cybersecurity", "EdTech", "Gamification"],
+    "problem_statement": "Cybersecurity awareness is low. Create a gamified platform where users solve security challenges (phishing detection, password cracking, etc.) to learn best practices.",
+    "objectives": [
+      "Design a series of cybersecurity puzzles.",
+      "Implement scoring and leaderboards.",
+      "Provide feedback and explanations."
+    ],
+    "deliverables": ["Web game", "Admin panel", "Report"]
+  },
+  {
+    "id": "p019",
+    "title": "COVID-19 Contact Tracing App",
+    "description": "Build a privacy-preserving contact tracing app using Bluetooth to alert users of potential exposure.",
+    "domain": "Healthcare",
+    "difficulty": "Medium",
+    "tech_stack": ["Swift/Kotlin", "Python", "Firebase", "Bluetooth"],
+    "duration": "2 weeks",
+    "tags": ["Health", "Privacy", "Mobile"],
+    "problem_statement": "During pandemics, manual contact tracing is slow. Create an app that uses Bluetooth to log encounters and notifies users if they have been near a confirmed case.",
+    "objectives": [
+      "Implement Bluetooth proximity logging.",
+      "Ensure user privacy with decentralized storage.",
+      "Integrate with health authority APIs for positive cases."
+    ],
+    "deliverables": ["Mobile app (iOS/Android)", "Backend", "Privacy docs"]
+  },
+  {
+    "id": "p020",
+    "title": "Automated Resume Screener",
+    "description": "Build a tool that uses NLP to screen resumes and rank candidates for job positions.",
+    "domain": "EdTech",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "spaCy", "FastAPI", "React"],
+    "duration": "2 weeks",
+    "tags": ["NLP", "HR Tech", "AI/ML"],
+    "problem_statement": "HR teams receive hundreds of resumes. Create a system that extracts key skills, experience, and education, and matches them to job descriptions to rank candidates.",
+    "objectives": [
+      "Parse and extract information from resumes (PDF/DOCX).",
+      "Compute similarity score with job description.",
+      "Provide a ranked list with highlights."
+    ],
+    "deliverables": ["Web interface", "API", "Evaluation on sample resumes"]
+  },
+  {
+    "id": "p021",
+    "title": "Realtime Sign Language Translator",
+    "description": "Develop a tool that translates sign language gestures into text or speech using computer vision.",
+    "domain": "Accessibility",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "MediaPipe", "TensorFlow", "React"],
+    "duration": "3 weeks",
+    "tags": ["Accessibility", "Computer Vision", "NLP"],
+    "problem_statement": "Deaf and hard-of-hearing individuals face communication barriers. Build a system that recognizes sign language gestures from a webcam and converts them to text/speech in real-time.",
+    "objectives": [
+      "Collect and label a sign language dataset.",
+      "Train a model to recognize gestures.",
+      "Build a real-time translation app."
+    ],
+    "deliverables": ["Web app", "Trained model", "Demo"]
+  },
+  {
+    "id": "p022",
+    "title": "Last-Mile Delivery Optimization",
+    "description": "Build a route optimization system for delivery fleets to minimize fuel and time.",
+    "domain": "Transportation",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "OR-Tools", "React", "Mapbox"],
+    "duration": "2 weeks",
+    "tags": ["Logistics", "Optimization", "Transportation"],
+    "problem_statement": "Delivery companies struggle with last-mile costs. Create a system that takes orders and vehicle constraints to generate optimal routes considering traffic and time windows.",
+    "objectives": [
+      "Implement VRP (Vehicle Routing Problem) solver.",
+      "Provide a map visualization of routes.",
+      "Allow dispatchers to adjust and reassign."
+    ],
+    "deliverables": ["Web dashboard", "Optimization API", "Report"]
+  },
+  {
+    "id": "p023",
+    "title": "Mental Health Chatbot",
+    "description": "Build a conversational AI that provides emotional support and coping strategies for mental health.",
+    "domain": "Healthcare",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Rasa", "React", "Docker"],
+    "duration": "2 weeks",
+    "tags": ["Health", "NLP", "Chatbot"],
+    "problem_statement": "Many people lack access to mental health resources. Create a chatbot that engages in supportive conversations, checks mood, and suggests activities or professional help when needed.",
+    "objectives": [
+      "Design conversation flows for common mental health scenarios.",
+      "Implement sentiment analysis to detect distress.",
+      "Provide resources and crisis hotline information."
+    ],
+    "deliverables": ["Chatbot web interface", "API", "Conversation logs"]
+  },
+  {
+    "id": "p024",
+    "title": "Smart Meter Data Analytics for Utilities",
+    "description": "Develop a platform that analyzes smart meter data to detect anomalies and provide energy-saving tips.",
+    "domain": "Energy",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Pandas", "Django", "React"],
+    "duration": "2 weeks",
+    "tags": ["Energy", "Data Analytics", "IoT"],
+    "problem_statement": "Utilities collect massive smart meter data but don't leverage it effectively. Build a system that identifies unusual consumption patterns (leaks, faulty appliances) and recommends efficiency measures.",
+    "objectives": [
+      "Ingest and process time-series data.",
+      "Implement anomaly detection algorithms.",
+      "Deliver a dashboard with actionable insights."
+    ],
+    "deliverables": ["Web app", "Anomaly detection models", "User reports"]
+  },
+  {
+    "id": "p025",
+    "title": "Crowdfunding Platform for Social Projects",
+    "description": "Create a crowdfunding platform focused on social impact projects with transparent tracking of fund usage.",
+    "domain": "Social Impact",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "Stripe"],
+    "duration": "2 weeks",
+    "tags": ["Social Impact", "FinTech", "Fundraising"],
+    "problem_statement": "Donors want to know how their money is used. Build a platform where project creators can post milestones, and donors see exactly where funds go, with blockchain-backed transparency.",
+    "objectives": [
+      "Implement project creation and donation.",
+      "Track funds and project progress.",
+      "Provide transparency reports."
+    ],
+    "deliverables": ["Web app", "Donation tracking", "Impact stories"]
+  },
+  {
+    "id": "p026",
+    "title": "Autonomous Navigation for Wheelchair",
+    "description": "Develop a system to help wheelchair users navigate safely indoors using computer vision and sensors.",
+    "domain": "Robotics",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "ROS", "OpenCV", "LiDAR"],
+    "duration": "3 weeks",
+    "tags": ["Robotics", "Accessibility", "Autonomous"],
+    "problem_statement": "Wheelchair users face obstacles in indoor environments. Build a system that detects obstacles and plans a safe path, possibly converting a standard wheelchair into an autonomous one.",
+    "objectives": [
+      "Implement obstacle detection and SLAM.",
+      "Develop path planning algorithm.",
+      "Integrate with wheelchair controls."
+    ],
+    "deliverables": ["Hardware prototype", "Autonomous navigation demo", "Code"]
+  },
+  {
+    "id": "p027",
+    "title": "AR-based Learning for Science Experiments",
+    "description": "Build an augmented reality app that overlays interactive 3D models to teach science concepts.",
+    "domain": "EdTech",
+    "difficulty": "Medium",
+    "tech_stack": ["Unity", "C#", "ARKit/ARCore", "Python"],
+    "duration": "3 weeks",
+    "tags": ["EdTech", "AR", "Interactive"],
+    "problem_statement": "Students struggle with abstract concepts in physics and chemistry. Create an AR app that visualizes molecules, circuits, or planetary motions in 3D, allowing manipulation and experimentation.",
+    "objectives": [
+      "Design 3D models for educational content.",
+      "Implement AR tracking and interaction.",
+      "Build lesson modules with quizzes."
+    ],
+    "deliverables": ["Mobile AR app", "Content library", "User testing report"]
+  },
+  {
+    "id": "p028",
+    "title": "Fraud Detection in Insurance Claims",
+    "description": "Develop a machine learning model to detect fraudulent insurance claims.",
+    "domain": "FinTech",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "Scikit-learn", "XGBoost", "FastAPI"],
+    "duration": "3 weeks",
+    "tags": ["AI/ML", "Fraud Detection", "FinTech"],
+    "problem_statement": "Insurance fraud costs billions. Build a system that uses historical claims data to flag suspicious patterns and assign a fraud risk score.",
+    "objectives": [
+      "Preprocess and feature-engineer claims data.",
+      "Train and evaluate multiple models.",
+      "Create an API that accepts claims and returns risk score."
+    ],
+    "deliverables": ["Trained model", "API", "Dashboard with insights"]
+  },
+  {
+    "id": "p029",
+    "title": "Ocean Plastic Cleanup Drone",
+    "description": "Build a drone concept that can detect and collect plastic waste from ocean surfaces.",
+    "domain": "Environment",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "OpenCV", "Raspberry Pi", "ROS"],
+    "duration": "3 weeks",
+    "tags": ["Environment", "Robotics", "Computer Vision"],
+    "problem_statement": "Ocean plastic pollution is a crisis. Design an autonomous surface drone that uses cameras to detect floating plastic and a collection mechanism to gather it.",
+    "objectives": [
+      "Implement plastic detection using semantic segmentation.",
+      "Design collection mechanism (simulated).",
+      "Simulate or build a small-scale prototype."
+    ],
+    "deliverables": ["Prototype (or simulation)", "Detection model", "Report"]
+  },
+  {
+    "id": "p030",
+    "title": "Dynamic Pricing for Ride-Sharing",
+    "description": "Create a pricing engine that adjusts fares in real-time based on demand, supply, and external factors.",
+    "domain": "Transportation",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "FastAPI", "React", "Redis"],
+    "duration": "2 weeks",
+    "tags": ["Transportation", "Pricing", "AI/ML"],
+    "problem_statement": "Ride-sharing companies need to balance supply and demand. Build a system that predicts demand surges and sets optimal prices to maximize utilization and revenue.",
+    "objectives": [
+      "Analyze historical trip data.",
+      "Implement a demand forecasting model.",
+      "Create a pricing API that responds to real-time events."
+    ],
+    "deliverables": ["Pricing engine API", "Dashboard", "Forecasting model"]
+  },
+  {
+    "id": "p031",
+    "title": "Smart Bin for Waste Segregation",
+    "description": "Build a smart waste bin that automatically separates recyclables using sensors and mechanical sorting.",
+    "domain": "Environment",
+    "difficulty": "Medium",
+    "tech_stack": ["Arduino", "Python", "TensorFlow Lite", "Servo motors"],
+    "duration": "2 weeks",
+    "tags": ["IoT", "Sustainability", "Computer Vision"],
+    "problem_statement": "Many people don't sort waste correctly. Create a bin that uses a camera to identify types of waste and diverts them into separate compartments.",
+    "objectives": [
+      "Train a lightweight image classifier for waste types.",
+      "Build a mechanical sorting mechanism.",
+      "Demonstrate with a prototype."
+    ],
+    "deliverables": ["Hardware prototype", "Classification model", "Video demo"]
+  },
+  {
+    "id": "p032",
+    "title": "Virtual Classroom with Engagement Analytics",
+    "description": "Develop a virtual classroom platform that tracks student engagement and provides feedback to teachers.",
+    "domain": "EdTech",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "WebRTC"],
+    "duration": "2 weeks",
+    "tags": ["EdTech", "Video", "Analytics"],
+    "problem_statement": "Online classes often lack engagement. Build a platform with video conferencing, screen sharing, and tools to monitor attention (via facial expressions, participation) and give teachers real-time insights.",
+    "objectives": [
+      "Implement video chat with screen sharing.",
+      "Collect engagement metrics (poll responses, video activity).",
+      "Provide a dashboard for teachers."
+    ],
+    "deliverables": ["Web app", "Analytics dashboard", "Demo"]
+  },
+  {
+    "id": "p033",
+    "title": "Cybersecurity Threat Intelligence Feed",
+    "description": "Create a system that aggregates and analyzes threat intelligence from multiple sources and provides actionable alerts.",
+    "domain": "Cybersecurity",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "Elasticsearch", "Kibana", "FastAPI"],
+    "duration": "3 weeks",
+    "tags": ["Cybersecurity", "Threat Intelligence", "Monitoring"],
+    "problem_statement": "Organizations need to stay ahead of emerging threats. Build a platform that ingests threat data (CVE, blogs, dark web), correlates it with internal assets, and prioritizes alerts.",
+    "objectives": [
+      "Collect data from APIs and scrapers.",
+      "Implement correlation and scoring algorithms.",
+      "Provide a visualization dashboard."
+    ],
+    "deliverables": ["API", "Dashboard", "Alerting system"]
+  },
+  {
+    "id": "p034",
+    "title": "Crop Yield Prediction from Satellite Imagery",
+    "description": "Develop a model that predicts crop yields using satellite images and weather data.",
+    "domain": "Agriculture",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "PyTorch", "Geospatial libraries", "FastAPI"],
+    "duration": "3 weeks",
+    "tags": ["AI/ML", "Agriculture", "Satellite"],
+    "problem_statement": "Farmers and governments need yield forecasts for planning. Build a system that processes satellite imagery (NDVI) and weather data to predict yields at field level.",
+    "objectives": [
+      "Access and preprocess satellite and weather data.",
+      "Train a regression model.",
+      "Create a web interface for predictions."
+    ],
+    "deliverables": ["Prediction model", "API", "Dashboard"]
+  },
+  {
+    "id": "p035",
+    "title": "Digital Wallet for Micro-Transactions",
+    "description": "Create a lightweight digital wallet for small transactions (e.g., street vendors, micro-payments) with low fees.",
+    "domain": "FinTech",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Flask", "React Native", "SQLite"],
+    "duration": "2 weeks",
+    "tags": ["FinTech", "Mobile", "Payments"],
+    "problem_statement": "Cash is still dominant in many small transactions. Build a mobile wallet that allows users to transfer small amounts instantly with minimal fees, using QR codes for peer-to-peer payments.",
+    "objectives": [
+      "Implement user accounts and balance management.",
+      "Generate and scan QR codes for payments.",
+      "Ensure transaction security."
+    ],
+    "deliverables": ["Mobile app", "Backend", "Demo transactions"]
+  },
+  {
+    "id": "p036",
+    "title": "Emergency Evacuation Routing for Fires",
+    "description": "Develop a system that calculates safe evacuation routes in real-time during building fires using sensor data.",
+    "domain": "Disaster Management",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "NetworkX", "React", "MQTT"],
+    "duration": "3 weeks",
+    "tags": ["Emergency", "IoT", "Optimization"],
+    "problem_statement": "In a fire, people need fast and safe exits. Build a system that uses smoke and heat sensors to map danger zones and dynamically route occupants to the safest exits.",
+    "objectives": [
+      "Simulate a building with sensors.",
+      "Implement real-time pathfinding algorithm.",
+      "Provide a visual interface with floor plan."
+    ],
+    "deliverables": ["Simulation", "Routing algorithm", "Interface"]
+  },
+  {
+    "id": "p037",
+    "title": "AI-based Medical Diagnosis Support",
+    "description": "Build a system that assists doctors by analyzing symptoms and suggesting possible diagnoses.",
+    "domain": "Healthcare",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "scikit-learn", "FastAPI", "React"],
+    "duration": "3 weeks",
+    "tags": ["Healthcare", "AI/ML", "Diagnosis"],
+    "problem_statement": "Diagnostic errors are common. Create a decision support system that takes patient symptoms and history, and outputs a ranked list of likely conditions with confidence scores.",
+    "objectives": [
+      "Curate a medical dataset of symptoms and diseases.",
+      "Train a multi-label classification model.",
+      "Provide an interface for doctors to input cases."
+    ],
+    "deliverables": ["Model API", "Web frontend", "Evaluation report"]
+  },
+  {
+    "id": "p038",
+    "title": "Green Building Energy Efficiency Audit",
+    "description": "Develop a tool that analyzes building energy consumption and suggests retrofits for efficiency.",
+    "domain": "Environment",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Pandas", "Django", "D3.js"],
+    "duration": "2 weeks",
+    "tags": ["Energy", "Sustainability", "Data Analytics"],
+    "problem_statement": "Buildings account for significant emissions. Create a system that ingests utility bills, weather data, and building characteristics to identify inefficiencies and recommend improvements.",
+    "objectives": [
+      "Calculate energy benchmarks (EUI).",
+      "Detect anomalies and potential savings.",
+      "Generate a report with actionable recommendations."
+    ],
+    "deliverables": ["Web app", "Energy model", "Report generator"]
+  },
+  {
+    "id": "p039",
+    "title": "Real-time Collaborative Code Editor",
+    "description": "Build a web-based code editor where multiple users can collaborate simultaneously with syntax highlighting and terminal access.",
+    "domain": "EdTech",
+    "difficulty": "Hard",
+    "tech_stack": ["Node.js", "React", "WebSockets", "Docker"],
+    "duration": "3 weeks",
+    "tags": ["EdTech", "Collaboration", "Developer Tools"],
+    "problem_statement": "Remote pair programming is challenging. Create a collaborative editor that supports multiple cursors, language-specific autocompletion, and a shared terminal for executing code.",
+    "objectives": [
+      "Implement operational transformation (OT) or CRDT for syncing.",
+      "Integrate a code execution sandbox.",
+      "Add voice/video chat (optional)."
+    ],
+    "deliverables": ["Web app", "Code execution engine", "Demo"]
+  },
+  {
+    "id": "p040",
+    "title": "Automated Trading Bot for Cryptocurrencies",
+    "description": "Develop a bot that executes trades on crypto exchanges based on technical indicators and sentiment analysis.",
+    "domain": "FinTech",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "CCXT", "TensorFlow", "React"],
+    "duration": "3 weeks",
+    "tags": ["FinTech", "Trading", "AI/ML"],
+    "problem_statement": "Crypto markets are volatile. Build a bot that monitors prices, news sentiment, and trading volume to execute buy/sell orders automatically using a strategy.",
+    "objectives": [
+      "Connect to exchange APIs for real-time data.",
+      "Implement a trading strategy (e.g., moving average crossover).",
+      "Backtest and optimize the strategy."
+    ],
+    "deliverables": ["Trading bot code", "Backtesting dashboard", "Documentation"]
+  },
+  {
+    "id": "p041",
+    "title": "Smart Helmet for Miners",
+    "description": "Create a helmet with sensors to monitor environmental conditions and alert miners to hazards.",
+    "domain": "Robotics",
+    "difficulty": "Medium",
+    "tech_stack": ["Arduino", "Python", "Bluetooth", "React Native"],
+    "duration": "2 weeks",
+    "tags": ["IoT", "Safety", "Mining"],
+    "problem_statement": "Mining is dangerous. Build a helmet that measures gas levels, temperature, and detects falls, sending alerts to a central control room.",
+    "objectives": [
+      "Integrate gas sensors and accelerometer.",
+      "Provide real-time data transmission.",
+      "Create a dashboard for monitoring."
+    ],
+    "deliverables": ["Helmet prototype", "Dashboard", "Alert system"]
+  },
+  {
+    "id": "p042",
+    "title": "Personalized News Aggregator",
+    "description": "Build a news aggregator that curates articles based on user interests and reading history.",
+    "domain": "Social Impact",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "NLP"],
+    "duration": "2 weeks",
+    "tags": ["NLP", "Personalization", "Media"],
+    "problem_statement": "People are overwhelmed with information. Create a system that scrapes news from multiple sources, categorizes topics, and recommends articles tailored to each user's preferences.",
+    "objectives": [
+      "Implement article scraping and categorization.",
+      "Build a recommendation engine using collaborative filtering.",
+      "Provide a clean reading interface."
+    ],
+    "deliverables": ["Web app", "Recommendation API", "User profiles"]
+  },
+  {
+    "id": "p043",
+    "title": "AI Essay Grader for Teachers",
+    "description": "Develop a tool that automatically grades student essays and provides feedback on grammar, coherence, and argumentation.",
+    "domain": "EdTech",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "GPT", "FastAPI", "React"],
+    "duration": "3 weeks",
+    "tags": ["EdTech", "NLP", "AI/ML"],
+    "problem_statement": "Grading essays is time-consuming. Build a system that uses NLP to evaluate essays on multiple dimensions (content, structure, language) and offers constructive feedback.",
+    "objectives": [
+      "Fine-tune a language model on graded essays.",
+      "Generate scores and comments.",
+      "Provide a web interface for teachers."
+    ],
+    "deliverables": ["Grading API", "Web app", "Evaluation results"]
+  },
+  {
+    "id": "p044",
+    "title": "Peer-to-Peer Car Rental Platform",
+    "description": "Create a platform where car owners can rent out their vehicles to others, with insurance and verification.",
+    "domain": "Transportation",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "Stripe"],
+    "duration": "2 weeks",
+    "tags": ["Transportation", "Sharing Economy", "FinTech"],
+    "problem_statement": "Many cars sit idle. Build a platform that connects car owners with renters, handling booking, payment, and insurance verification.",
+    "objectives": [
+      "Implement listing and search for cars.",
+      "Handle booking and payment processing.",
+      "Integrate identity verification."
+    ],
+    "deliverables": ["Web app", "Payment integration", "Demo"]
+  },
+  {
+    "id": "p045",
+    "title": "Flood Prediction and Alert System",
+    "description": "Develop a system that uses weather data and river levels to predict flood risks and send alerts to vulnerable communities.",
+    "domain": "Disaster Management",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "Scikit-learn", "FastAPI", "Twilio"],
+    "duration": "3 weeks",
+    "tags": ["Disaster", "Prediction", "IoT"],
+    "problem_statement": "Floods cause huge damage. Build a predictive model using rainfall and water level data, and alert residents via SMS and app notifications when levels exceed thresholds.",
+    "objectives": [
+      "Collect historical and real-time weather/water data.",
+      "Train a regression model for water level forecasting.",
+      "Set up alerting with geolocation targeting."
+    ],
+    "deliverables": ["Prediction API", "Alert system", "Dashboard"]
+  },
+  {
+    "id": "p046",
+    "title": "Social Media Hate Speech Detector",
+    "description": "Build a tool that automatically detects and flags hate speech in social media posts.",
+    "domain": "Social Impact",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Transformers", "FastAPI", "React"],
+    "duration": "2 weeks",
+    "tags": ["NLP", "Social Impact", "AI/ML"],
+    "problem_statement": "Hate speech spreads online. Create a system that scans posts and comments, labels them as hate speech or not, and provides a moderation dashboard.",
+    "objectives": [
+      "Fine-tune a BERT-based model for hate speech detection.",
+      "Implement a real-time API.",
+      "Build a moderation interface with action options."
+    ],
+    "deliverables": ["Model API", "Moderation dashboard", "Dataset"]
+  },
+  {
+    "id": "p047",
+    "title": "Smart Inventory Management with RFID",
+    "description": "Develop a system that tracks inventory using RFID tags and provides real-time stock levels and reorder alerts.",
+    "domain": "E-commerce",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "Django", "React", "RFID reader"],
+    "duration": "2 weeks",
+    "tags": ["E-commerce", "IoT", "Inventory"],
+    "problem_statement": "Retailers lose sales due to stockouts. Build a system that automatically updates inventory when items are moved, and triggers reorder when thresholds are reached.",
+    "objectives": [
+      "Integrate with RFID readers (simulate).",
+      "Provide dashboard with stock alerts.",
+      "Generate purchase order suggestions."
+    ],
+    "deliverables": ["Web app", "Inventory API", "Demo setup"]
+  },
+  {
+    "id": "p048",
+    "title": "Gesture-Controlled Drone",
+    "description": "Build a drone that can be controlled by hand gestures using computer vision.",
+    "domain": "Robotics",
+    "difficulty": "Hard",
+    "tech_stack": ["Python", "OpenCV", "MediaPipe", "DroneKit"],
+    "duration": "3 weeks",
+    "tags": ["Robotics", "Computer Vision", "Drones"],
+    "problem_statement": "Remote controls are limiting. Create a system that uses a webcam to recognize gestures (wave, swipe, etc.) and translates them into drone commands (takeoff, move, land).",
+    "objectives": [
+      "Implement hand gesture recognition in real-time.",
+      "Map gestures to drone commands.",
+      "Test with a drone simulator or actual drone."
+    ],
+    "deliverables": ["Gesture recognition module", "Drone integration", "Demo"]
+  },
+  {
+    "id": "p049",
+    "title": "Carbon Footprint Tracker for Commuters",
+    "description": "Develop a mobile app that tracks a user's travel modes and calculates their carbon footprint, suggesting greener alternatives.",
+    "domain": "Environment",
+    "difficulty": "Medium",
+    "tech_stack": ["Python", "React Native", "Google Maps API", "Firebase"],
+    "duration": "2 weeks",
+    "tags": ["Environment", "Transportation", "Sustainability"],
+    "problem_statement": "People want to reduce their carbon emissions but lack awareness. Build an app that automatically detects travel mode (car, bus, bike) using GPS and gives CO2 estimates, with alternative route suggestions.",
+    "objectives": [
+      "Classify travel mode from motion data.",
+      "Calculate emissions using standard factors.",
+      "Provide gamification and tips."
+    ],
+    "deliverables": ["Mobile app", "Emissions calculator", "Dashboard"]
+  },
+  {
+    "id": "p050",
+    "title": "Scam Detection for Online Transactions",
+    "description": "Create a browser extension that warns users when they are on a potentially fraudulent website.",
+    "domain": "Cybersecurity",
+    "difficulty": "Medium",
+    "tech_stack": ["JavaScript", "Python", "Scikit-learn", "Chrome API"],
+    "duration": "2 weeks",
+    "tags": ["Cybersecurity", "Browser Extension", "AI/ML"],
+    "problem_statement": "Phishing scams are common. Build a tool that analyzes website URL, content, and SSL certificate to assign a risk score and alert users in real-time.",
+    "objectives": [
+      "Collect features from website metadata.",
+      "Train a classification model on known phishing sites.",
+      "Build a browser extension that displays warnings."
+    ],
+    "deliverables": ["ML model", "Browser extension", "Demo"]
+  }
+]
